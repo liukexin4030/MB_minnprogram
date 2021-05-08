@@ -1,0 +1,5 @@
+<!--pages/goods/goods.wxml-->
+
+<view wx:for="{{ goods_list }}" wx:key="_id">
+  {{ item.name }}
+</view>
